@@ -1,0 +1,20 @@
+local o = vim.opt
+
+o.number = true
+o.relativenumber = true
+o.termguicolors = true
+o.mouse = "a"
+o.clipboard = "unnamedplus"     -- share clipboard with system (needed for tmux/terminator copy-paste too)
+o.tabstop = 2
+o.shiftwidth = 2
+o.expandtab = true
+o.smartindent = true
+o.wrap = false
+o.ignorecase = true
+o.smartcase = true
+o.signcolumn = "yes"            -- keeps gutter stable for git signs / diagnostics
+o.splitright = true
+o.splitbelow = true
+o.updatetime = 250
+o.scrolloff = 8
+o.undofile = true               -- persistent undo across sessions
